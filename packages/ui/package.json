@@ -1,0 +1,20 @@
+{
+    "name": "ui",
+    "exports": {
+        ".": {
+            "import": {
+                "development": "./src"
+            }
+        }
+    },
+    "typesVersions": {
+        "*": {
+            "*": [
+                "./src/*"
+            ]
+        }
+    },
+    "dependencies": {
+        "vue": "2.7.14"
+    }
+}
